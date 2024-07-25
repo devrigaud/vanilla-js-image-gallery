@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/307f664186.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Image Gallery | Benrigaud</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="gallery">
+      <h2>Vanilla JS Gallery</h2>
+      <div class="image-gallery">
+        <img src="./assets/img/image-01.jpg" alt="gallery item1" imageId="1" class="image-gallery-item">
+        <img src="./assets/img/image-02.jpg" alt="gallery item2" imageId="2" class="image-gallery-item">
+        <img src="./assets/img/image-03.jpg" alt="gallery item3" imageId="3" class="image-gallery-item">
+        <img src="./assets/img/image-04.jpg" alt="gallery item4" imageId="4" class="image-gallery-item">
+        <img src="./assets/img/image-05.jpg" alt="gallery item5" imageId="5" class="image-gallery-item">
+        <img src="./assets/img/image-06.jpg" alt="gallery item6" imageId="6" class="image-gallery-item">
+        <img src="./assets/img/image-07.jpg" alt="gallery item7" imageId="7" class="image-gallery-item">
+        <img src="./assets/img/image-08.jpg" alt="gallery item8" imageId="8" class="image-gallery-item">
+      </div>
+    </div>
+    <a href="https://benrigaud.com" target="_blank">made by benrigaud</a>
+  </div>
+  
+  <div class="image-gallery-popup pop-up">
+		<div class="container">
+			<button class="close-gallery close-trigger"><i class="fas fa-times"></i></button>
+			<div class="wrapper">
+				<img src="https://source.unsplash.com/random" alt="random" imageId="16" class="active-image">
+				<button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+				<button class="next-image"><i class="fas fa-chevron-right"></i></button>
+				<p>
+					<span class="current-image">0</span> of
+					<span class="total-images">0</span>
+				</p>
+			</div>
+		</div>
+	</div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
